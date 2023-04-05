@@ -88,3 +88,18 @@ Email test
 Let’s execute a faster test, with email notification to check that the notifications are also working.
 
 /etc/cron.daily/rkhunter
+
+
+rkhunter software
+
+rkhunter – rkhunter (Rootkit Hunter) is a Unix-based tool that scans for rootkits, backdoors and possible local exploits. rkhunter is a shell script which carries out various checks on the local system to try and detect known rootkits and malware. It also performs checks to see if commands have been modified, if the system startup files have been modified, and various checks on the network interfaces, including checks for listening applications. Type the following command to install rkhunter:
+$ sudo apt-get install rkhunter
+
+The following command option tells rkhunter to perform various checks on the local system:
+$ sudo rkhunter --check
+
+The following command option causes rkhunter to check if there is a later version of any of its text data files:
+$ sudo rkhunter --update
+
+The following option tells rkhunter which directories to look in to find the various commands it requires:
+$ sudo rkhunter --check --bindir /mnt/safe
