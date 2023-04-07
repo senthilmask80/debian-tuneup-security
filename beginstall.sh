@@ -11,6 +11,7 @@ sudo apt install -y firmware-amd-graphics firmware-linux firmware-linux-free fir
 sudo apt install -y tree strace vim screen unzip unrar-free p7zip-full nmap traceroute sysstat locate openssh-server htop iftop iotop tcpdump rsync dnsutils dnstop iputils-ping iputils-tracepath locales-all iproute2 mtr-tiny snmp whois dirmngr;
 sudo apt install -y ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi;
 sudo apt install -y fonts-crosextra-carlito fonts-crosextra-caladea;
+sudo apt install -y gnome-shell chrome-gnome-shell;
 
 
 //*** Python Installation with environment settings ***//
