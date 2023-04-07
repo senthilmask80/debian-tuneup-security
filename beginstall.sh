@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt update; sudo apt -y upgrade; sudo apt -y dist-upgrade;
 # sudo nano /etc/apt/sources.list or /etc/apt/sources.list.d/official-debian.list  tobe add main contrib non-free
-sudo apt -y make build-essential apt-transport-https software-properties-common git git-all curl wget;
+sudo apt -y make build-essential apt-transport-https software-properties-common git git-all curl wget ca-certificates;
 sudo apt install -y linux-headers-6.0.0-0.deb11.6-amd64;
 sudo apt install -y linux-headers-6.0.0-0.deb11.6-common;
 sudo apt install -y linux-image-6.0.0-0.deb11.6-amd64;
