@@ -29,3 +29,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 //*** Ruby Installation ***//
 sudo apt install ruby ruby-dev ruby-full ruby-debian rubygems-integration;
+
+//*** Others tools Installation ***//
+sudo apt install -y macchanger secure-delete libpam-google-authenticator tlp tlp-rdw gedit neofetch leafpad;
