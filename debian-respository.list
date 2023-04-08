@@ -66,3 +66,20 @@ or
 deb https://www.deb-multimedia.org stable main non-free
 or
 deb ftp://ftp.deb-multimedia.org stable main non-free
+
+For bullseye-backports (stable-backports)
+amd64, arm64, armel, armhf and i386 packages
+add in your /etc/apt/sources.list
+
+apt-get install must be called with the -t option "-t stable-backports" in order to install packages from stable-bacports.
+
+deb https://www.deb-multimedia.org bullseye main non-free
+deb https://www.deb-multimedia.org bullseye-backports main
+or
+deb ftp://ftp.deb-multimedia.org bullseye main non-free
+deb ftp://ftp.deb-multimedia.org bullseye-backports main
+or
+deb https://www.deb-multimedia.org stable main non-free
+deb https://www.deb-multimedia.org stable-backports main
+or
+deb ftp://ftp.deb-multimedia.org stable main non-free deb ftp://ftp.deb-multimedia.org stable-backports main
