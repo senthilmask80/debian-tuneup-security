@@ -20,3 +20,14 @@ wget -qO- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8C
 
 Install tor and tor debian keyring
 apt install tor deb.torproject.org-keyring
+
+Google Chrome Respository
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+deb http://dl.google.com/linux/chrome/deb/ stable main
+
+Microsoft Respository
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+sudo apt-add-repository https://packages.microsoft.com/debian/10/prod
+sudo apt-get update
+deb https://packages.microsoft.com/repos/code stable main
+
